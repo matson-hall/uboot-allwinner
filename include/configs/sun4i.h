@@ -89,6 +89,12 @@
 #define CONFIG_SYS_NAND_BASE            0x00
 #define CONFIG_CMD_MEMORY
 #define CONFIG_SUNXI_DMA
+#define CONFIG_OF_LIBFDT                1
+#define CONFIG_ARCH_DEVICE_TREE sun4i-a10
+#define CONFIG_OF_SEPARATE
+#define CONFIG_SYS_MEM_TOP_HIDE         (350*1024*1024)
+#define CONFIG_FIT                      1
+#define CONFIG_FIT_VERBOSE              1
 
 #define CONFIG_SETUP_MEMORY_TAGS
 #define CONFIG_CMDLINE_TAG
